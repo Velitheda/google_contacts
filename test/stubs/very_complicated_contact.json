@@ -1,0 +1,212 @@
+{
+  "entry": {
+    "category": [
+      {
+        "term": "http://schemas.google.com/contact/2008#contact",
+        "scheme": "http://schemas.google.com/g/2005#kind"
+      }
+    ],
+    "updated": {
+      "$t": "2015-06-17T02:24:58.261Z"
+    },
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "title": {
+      "$t": "Prefix First name Middle name Last Name Suffix",
+      "type": "text"
+    },
+    "gd$im": [
+      {
+        "protocol": "http://schemas.google.com/g/2005#GOOGLE_TALK",
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "Google Talk"
+      },
+      {
+        "protocol": "http://schemas.google.com/g/2005#AIM",
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "AIM"
+      },
+      {
+        "protocol": "http://schemas.google.com/g/2005#YAHOO",
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "Yahoo"
+      },
+      {
+        "protocol": "http://schemas.google.com/g/2005#SKYPE",
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "Skype"
+      },
+      {
+        "protocol": "http://schemas.google.com/g/2005#QQ",
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "QQ"
+      },
+      {
+        "protocol": "http://schemas.google.com/g/2005#MSN",
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "MSN"
+      },
+      {
+        "protocol": "http://schemas.google.com/g/2005#ICQ",
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "ICQ"
+      },
+      {
+        "protocol": "http://schemas.google.com/g/2005#JABBER",
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "Jabber"
+      },
+      {
+        "protocol": "http://schemas.google.com/g/2005#Custom",
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "Custom"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "Blank"
+      },
+      {
+        "protocol": "http://schemas.google.com/g/2005#User defined",
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "User defined IM"
+      }
+    ],
+    "xmlns$gContact": "http://schemas.google.com/contact/2008",
+    "content": {
+      "$t": "This is a note",
+      "type": "text"
+    },
+    "xmlns$batch": "http://schemas.google.com/gdata/batch",
+    "xmlns$gd": "http://schemas.google.com/g/2005",
+    "link": [
+      {
+        "href": "https://www.google.com/m8/feeds/photos/media/thechestnutvixen%40gmail.com/6971768b0c52189f/iA5NWILvU9IoK5agSJdvKA",
+        "type": "image/*",
+        "rel": "http://schemas.google.com/contacts/2008/rel#edit-photo"
+      },
+      {
+        "href": "https://www.google.com/m8/feeds/photos/media/thechestnutvixen%40gmail.com/6971768b0c52189f",
+        "type": "image/*",
+        "rel": "http://schemas.google.com/contacts/2008/rel#photo"
+      },
+      {
+        "href": "https://www.google.com/m8/feeds/contacts/thechestnutvixen%40gmail.com/full/6971768b0c52189f",
+        "type": "application/atom+xml",
+        "rel": "self"
+      },
+      {
+        "href": "https://www.google.com/m8/feeds/contacts/thechestnutvixen%40gmail.com/full/6971768b0c52189f/1434507898261001",
+        "type": "application/atom+xml",
+        "rel": "edit"
+      }
+    ],
+    "gd$email": [
+      {
+        "primary": "true",
+        "rel": "http://schemas.google.com/g/2005#home",
+        "address": "home@example.com"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#work",
+        "address": "work@example.com"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "blank@example.com"
+      },
+      {
+        "label": "Custom",
+        "address": "Custom@example.com"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#other",
+        "address": "blank2@example.com"
+      },
+      {
+        "label": "Custom",
+        "address": "Custom2@example.com"
+      },
+      {
+        "label": "userdefined",
+        "address": "userdefinedemail@example.com"
+      }
+    ],
+    "gd$postalAddress": [
+      {
+        "$t": "78 Baker St\nPO Box 123\nNeighborhood, City, State zip code\nCountry",
+        "rel": "http://schemas.google.com/g/2005#home"
+      },
+      {
+        "$t": "Work Address",
+        "rel": "http://schemas.google.com/g/2005#work"
+      },
+      {
+        "$t": "Custom Address",
+        "label": "Custom"
+      },
+      {
+        "$t": "Blank Address",
+        "rel": "http://schemas.google.com/g/2005#other"
+      },
+      {
+        "$t": "User defined address",
+        "label": "User defined"
+      }
+    ],
+    "gd$phoneNumber": [
+      {
+        "$t": "0000000000",
+        "rel": "http://schemas.google.com/g/2005#home"
+      },
+      {
+        "$t": "1234567890",
+        "rel": "http://schemas.google.com/g/2005#mobile"
+      },
+      {
+        "$t": "1111111111",
+        "label": "main"
+      },
+      {
+        "$t": "222222222",
+        "uri": "tel:+64-22-222-2222",
+        "rel": "http://schemas.google.com/g/2005#work_fax"
+      },
+      {
+        "$t": "3333333333",
+        "rel": "http://schemas.google.com/g/2005#home_fax"
+      },
+      {
+        "$t": "4444444444444",
+        "label": "grandcentral"
+      },
+      {
+        "$t": "5555555555",
+        "rel": "http://schemas.google.com/g/2005#pager"
+      },
+      {
+        "$t": "666666666",
+        "rel": "http://schemas.google.com/g/2005#other"
+      },
+      {
+        "$t": "777777777",
+        "label": "Custom"
+      },
+      {
+        "$t": "888888888",
+        "rel": "http://schemas.google.com/g/2005#other"
+      },
+      {
+        "$t": "99999999999",
+        "rel": "http://schemas.google.com/g/2005#work"
+      },
+      {
+        "$t": "1010101010101",
+        "label": "User defined"
+      }
+    ],
+    "id": {
+      "$t": "http://www.google.com/m8/feeds/contacts/thechestnutvixen%40gmail.com/base/6971768b0c52189f"
+    }
+  },
+  "version": "1.0",
+  "encoding": "UTF-8"
+}

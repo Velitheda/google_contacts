@@ -1,0 +1,53 @@
+{
+  "entry": {
+    "category": [
+      {
+        "term": "http://schemas.google.com/contact/2008#contact",
+        "scheme": "http://schemas.google.com/g/2005#kind"
+      }
+    ],
+    "updated": {
+      "$t": "2015-06-17T00:15:39.168Z"
+    },
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "gContact$groupMembershipInfo": [
+      {
+        "deleted": "false",
+        "href": "http://www.google.com/m8/feeds/groups/thechestnutvixen%40gmail.com/base/44ebcbba8c2cde92"
+      }
+    ],
+    "title": {
+      "$t": "",
+      "type": "text"
+    },
+    "xmlns$gContact": "http://schemas.google.com/contact/2008",
+    "content": {
+      "$t": "empty contact",
+      "type": "text"
+    },
+    "xmlns$batch": "http://schemas.google.com/gdata/batch",
+    "xmlns$gd": "http://schemas.google.com/g/2005",
+    "link": [
+      {
+        "href": "https://www.google.com/m8/feeds/photos/media/thechestnutvixen%40gmail.com/7de130a50885953a/1B2M2Y8AsgTpgAmY7PhCfg",
+        "type": "image/*",
+        "rel": "http://schemas.google.com/contacts/2008/rel#edit-photo"
+      },
+      {
+        "href": "https://www.google.com/m8/feeds/contacts/thechestnutvixen%40gmail.com/full/7de130a50885953a",
+        "type": "application/atom+xml",
+        "rel": "self"
+      },
+      {
+        "href": "https://www.google.com/m8/feeds/contacts/thechestnutvixen%40gmail.com/full/7de130a50885953a/1434500139168001",
+        "type": "application/atom+xml",
+        "rel": "edit"
+      }
+    ],
+    "id": {
+      "$t": "http://www.google.com/m8/feeds/contacts/thechestnutvixen%40gmail.com/base/7de130a50885953a"
+    }
+  },
+  "version": "1.0",
+  "encoding": "UTF-8"
+}

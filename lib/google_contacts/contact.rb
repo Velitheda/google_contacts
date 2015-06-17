@@ -38,4 +38,40 @@ class GoogleContacts::Contact < GoogleContacts::Attribute
     # HEAD request
   end
 
+  def name
+    @entry.send(:name) rescue nil
+  end
+
+  def emails
+    @entry.send(:emails) rescue nil
+  end
+
+  def relations
+    @entry.send(:relations) rescue nil
+  end
+
+  def phone_numbers
+    @entry.send(:phone_numbers) rescue nil
+  end
+
+  def user_defined_fields
+    @entry.send(:user_defined_fields) rescue nil
+  end
+
+  def birthday
+    @entry.send(:birthday) rescue nil
+  end
+
+  def structured_postal_addresses
+    @entry.send(:structured_postal_addresses) rescue nil
+  end
+
+  def organization
+    @entry.send(:organization) rescue nil
+  end
+
+  def job_title
+    @entry.send(:job_title) rescue nil
+  end
+
 end
