@@ -41,8 +41,6 @@ class AccountTest < Minitest::Test
     assert_equal contacts, @account.contacts.all
   end
 
-
-
   test "can get a single group" do
     expected = GoogleContacts::Group.new({"foo" => "bar"})
     @stubs.get('/m8/feeds/groups/default/full/a-group?alt=json') do |env|
