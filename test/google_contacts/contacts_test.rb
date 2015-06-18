@@ -20,6 +20,19 @@ class ContactsTest < Minitest::Test
     json = JSON.parse(File.open('test/stubs/complicated_contact.json').read)
     contact = GoogleContacts::Contact.new(json["entry"])
 
+    assert_equal "https://www.google.com/m8/feeds/photos/media/nick%40revert.io/123abc456def/4ik0BEWeckEt_3QYgo3bWg",
+      contact.link.rel("#edit-photo").first.href
+
+    assert_equal "CompyPants Ltd", contact.organization.rel(
+      "#other").first.org_name.value
+    assert_equal "CompyPants Ltd", contact.organization.first.org_name.value
+
+    assert_equal "CEO", contact.organization.rel("#other").first.org_title.value
+    assert_equal "CEO", contact.organization.first.org_title.value
+
+    assert_equal "http://aurhviruvl.co.nz", contact.website.rel("profile").first.href
+    assert_equal "http://aurhviruvl.co.nz", contact.website.first.href
+
     assert_equal "Roger", contact.name.given_name.value
     assert_equal "Rodja", contact.name.given_name.yomi
 
@@ -51,6 +64,8 @@ class ContactsTest < Minitest::Test
     assert_equal expected_addr, home_addr.formatted_address.value
     assert_equal "Australia", home_addr.country.value
     assert_equal "AU", home_addr.country.code
+
+    assert_equal expected_addr, contact.structured_postal_addresses.first.formatted_address.value
   end
 
   # When an attribute isn't set, it won't be returned in the JSON at all.

@@ -165,7 +165,13 @@
     ],
     "gContact$birthday": {
       "when": "1980-01-01"
-    }
+    },
+    "gContact$website":[
+      {
+        "href":"http://aurhviruvl.co.nz",
+        "rel":"profile"
+      }
+    ]
   },
   "version": "1.0",
   "encoding": "UTF-8"
